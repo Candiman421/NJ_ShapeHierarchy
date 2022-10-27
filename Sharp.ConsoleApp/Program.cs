@@ -16,8 +16,10 @@ foreach (Shape shape in shapesArray)
 {
     if(shape is TwoDimensionalShape)
     {
+        var oldWayToFormatAString = String.Format("This Shape is a two-dimensional {0}", shape.ToString());
         //putting a $ before ""  creates String-Interpolation
-        Console.WriteLine($"This Shape is a two-dimensional {shape.ToString()}");
+        //Console.WriteLine($"This Shape is a two-dimensional {shape.ToString()}");
+        Console.WriteLine($"{oldWayToFormatAString}");
         Console.WriteLine($"  Area: {((TwoDimensionalShape)shape).Area}");
     }
     else if(shape is ThreeDimensionalShape)
