@@ -12,6 +12,7 @@
     {
         public abstract double Area { get; }
 
+        //This is left for reference to show that you can put the ToString() in the base class
         //public override string ToString()
         //{
         //    return GetType().Name;
