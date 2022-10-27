@@ -36,3 +36,5 @@ foreach (Shape shape in shapesArray)
              //This code left for reference of failed attempt for finding class heirarchy.
     //}
 }
+
+Console.ReadLine();
